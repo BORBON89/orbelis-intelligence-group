@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbelis Intelligence Group</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0b0b0f;
+            color: white;
+        }
+
+        header {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("logo.jpg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 40px;
+            color: #ffffff;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #d1b3ff;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #1a1a2e;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        button {
+            background: #a855f7;
+            border: none;
+            padding: 12px 25px;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #9333ea;
+        }
+
+        footer {
+            background: #111;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Orbelis Intelligence Group</h1>
+        <p><strong>TU VERDAD ES NUESTRO COMPROMISO</strong></p>
+    </header>
+
+    <section>
+        <h2>¿Quiénes somos?</h2>
+        <p>
+            Somos una empresa especializada en investigación, inteligencia y análisis estratégico.
+            Nuestro compromiso es descubrir la verdad con discreción y profesionalismo.
+        </p>
+    </section>
+
+    <section>
+        <h2>Servicios</h2>
+
+        <div class="services">
+
+            <div class="card">
+                <h3>Búsqueda y localización</h3>
+                <p>Localizamos personas con métodos estratégicos y confidenciales.</p>
+            </div>
+
+            <div class="card">
+                <h3>Investigación de fraude</h3>
+                <p>Detectamos y analizamos posibles fraudes con precisión.</p>
+            </div>
+
+            <div class="card">
+                <h3>Relaciones personales</h3>
+                <p>Investigamos situaciones personales con total discreción.</p>
+            </div>
+
+            <div class="card">
+                <h3>Seguimientos estratégicos</h3>
+                <p>Realizamos monitoreo y seguimiento profesional.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>¿Necesitas saber la verdad?</h2>
+        <p>Contáctanos de forma confidencial</p>
+
+        <button onclick="window.location.href='https://wa.me/525574265617'">
+            Contactar por WhatsApp
+        </button>
+    </section>
+
+    <footer>
+        <p>© 2026 Orbelis Intelligence Group - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+
+</html>
